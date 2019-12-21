@@ -1,0 +1,62 @@
+
+body{
+    width:100%;
+}
+#forImages img{
+    float:left;
+    width:33.333333%;
+    height:300px;
+    
+}
+
+#download{
+    display:inline-block;
+    background-color: #343a40;
+    width:100%;
+    height: 200px;
+    text-align: center;
+    padding:100px 0;
+}
+
+#download h1{
+    font-size: 40px;
+    color:white;
+}
+
+#downloadButton{
+    border-radius: 40px;
+    padding:20px 40px;
+    font-size: 20px;
+    color:#212529;
+}
+
+#touch{
+    text-align: center;
+    margin:100px 0;
+}
+
+#touch hr{
+    width:3%;
+    border:1px solid #f4623a;
+}
+
+#touch p{
+    color:#6c757d;
+}
+#touch img{
+    width:50px;
+    margin:20px auto 10px auto;
+    padding:0 150px;
+}
+
+#touch h3{
+    display:inline-block;
+    padding:0 70px 0 100px;
+}
+
+footer{
+    text-align: center;
+    background-color: #f8f9fa;
+    color:#6c757d;
+    padding:40px;
+}
