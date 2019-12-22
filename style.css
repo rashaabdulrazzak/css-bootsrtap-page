@@ -1,6 +1,7 @@
 
 body{
     width:100%;
+    height:100%;
 }
 #forImages img{
     float:left;
@@ -45,7 +46,7 @@ body{
 }
 #touch img{
     width:50px;
-    margin:20px auto 10px auto;
+    margin:20px auto 10px;
     padding:0 150px;
 }
 
