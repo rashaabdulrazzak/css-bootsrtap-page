@@ -150,6 +150,10 @@ section {
     color: #2d4052;
     margin-bottom: 10px;
 }
+i{
+    font-size: 48px;
+    color: #f4623a;
+}
 .servicein .service-description p{
     color: #9fa5aa;
     font-size: 14px;
