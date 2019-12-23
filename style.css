@@ -1,7 +1,161 @@
 
 body{
-    width:100%;
+    /*width:100%;*/
     height:100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: Helvetica, sans-serif
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+/* style navigation */
+nav{
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0);
+    height: 70px;
+    /*padding: 5px 5%;*/
+    width: 100vw;
+
+}
+nav .logo{
+    display: flex;
+    float: left;
+    margin-top:10px; 
+    
+}
+nav .logo a {       
+    color: #ccc8c5;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+nav ul {   
+    display: flex;
+    float: right;
+    list-style-type: none;    
+}
+nav ul li{  
+    margin: 0 2vw;    
+}
+nav ul li a {    
+    color: #ccc8c5;
+    font-weight: bold;
+    padding: 2vw;
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    /*padding: 0 7%;*/
+    display: table;
+    margin: 0;
+   text-align: center;
+}
+/* section  AboutUs styling */
+#AboutUs{
+    background-image: url(./images/negative-space.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    height: 100vh;
+}
+#AboutUs h1{
+    color: #fff;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+#AboutUs p{
+    color: #ccc8c5;
+    font-size: 16px;
+    padding: 20px;
+}
+#AboutUs a {
+    color: white;
+    text-transform: uppercase;
+    background-color: #f4623a;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* section whatwedo */
+#whatwedo{
+  background-color: #f4623a;
+  height: 90vh;
+}
+#whatwedo h1{
+    color: #fff;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+}
+#whatwedo hr{
+    width:3%;
+    border:1px solid #fff;
+}
+#whatwedo p{
+    color: #f8a99d;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+#whatwedo a {
+    color: black;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 50px 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* section services */
+#services{
+    height: 80vh;
+}
+#services h1{
+    color: #000;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-left: 0;
+    margin-right: 0;
+}
+.myservices{
+    display: inline-flex;
+}
+.servicein{
+    width: 25%;
+    padding: 25px;
+
+}
+.servicetitle p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #2d4052;
+    margin-bottom: 10px;
+}
+.servicein .service-description p{
+    color: #9fa5aa;
+    font-size: 14px;
+}
+#forImage{
+    width: 100%;
+    padding: 0 !important;
 }
 #forImages img{
     float:left;
@@ -9,14 +163,15 @@ body{
     height:300px;
     
 }
-
+/* download style */
 #download{
     display:inline-block;
     background-color: #343a40;
     width:100%;
     height: 200px;
     text-align: center;
-    padding:100px 0;
+    padding-top:100px;
+    padding-bottom: 100px;
 }
 
 #download h1{
@@ -30,13 +185,13 @@ body{
     font-size: 20px;
     color:#212529;
 }
-
+/* touch */ 
 #touch{
     text-align: center;
-    margin:100px 0;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
-
-#touch hr{
+ hr{
     width:3%;
     border:1px solid #f4623a;
 }
@@ -59,5 +214,12 @@ footer{
     text-align: center;
     background-color: #f8f9fa;
     color:#6c757d;
-    padding:40px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
 }
