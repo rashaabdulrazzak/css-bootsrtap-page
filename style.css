@@ -20,8 +20,8 @@ nav{
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0);
     height: 70px;
-    /*padding: 5px 5%;*/
-    width: 100vw;
+    padding: 5px 5%;
+   /* width: 100vw;*/
 
 }
 nav .logo{
@@ -41,14 +41,15 @@ nav ul {
     display: flex;
     float: right;
     list-style-type: none;    
+    margin-right: 5vw;
 }
 nav ul li{  
-    margin: 0 2vw;    
+    margin: 0 1vw;    
 }
 nav ul li a {    
     color: #ccc8c5;
     font-weight: bold;
-    padding: 2vw;
+    /*padding: 2vw;*/
     text-decoration: none;
 }
 section {
